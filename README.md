@@ -95,8 +95,9 @@ There are 4 parameters that you should provide to the cloudformation template:
 ### How to deploy the solution:
 Fetch the cloudformation template & its parameters file from this repository:
 ```bash
-wget https://raw.githubusercontent.com/shahinam2/AWS-DevOps-Projects/refs/heads/main/06_Disposable_NAT_Gateway/CFN-Template.yaml
-wget https://raw.githubusercontent.com/shahinam2/AWS-DevOps-Projects/refs/heads/main/06_Disposable_NAT_Gateway/parameters.json
+wget https://raw.githubusercontent.com/Sank-Gaikwad/Disposable_NAT_Gateway/main/CFN-Template.yaml
+wget https://raw.githubusercontent.com/Sank-Gaikwad/Disposable_NAT_Gateway/main/parameters.json
+
 ```
 Deploy it using the AWS CLI:
 ```bash
